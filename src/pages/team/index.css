@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    width: 300px;
+    margin:0%;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    min-height: 100vh;
+   }
+   
+   .team-players {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: vertical;
+   }
+
+   .textarea{
+    resize: none;
+    border-radius: 100px;
+    margin: 20px;
+   }
+
+   .input{
+    border-radius: 100px;
+    height: 30px;
+    margin: 10px;
+    
+   }
+
+
+   
+   button {
+    background-color: #544caf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+   }
+   
+   button:hover {
+    opacity: 0.8;
+   }
+   
+   .team-distribution {
+    display: flex;
+    justify-content: space-around;
+   }
+   
+   .team-column {
+    width: 45%;
+   }
+   
+   .team-column ul {
+    list-style-type: none;
+    padding: 0;
+   }
+
+    
+#no-players, #player-name,#dis-team1,#dis-team2,#di-team1,#di-team2{
+color: white;
+}

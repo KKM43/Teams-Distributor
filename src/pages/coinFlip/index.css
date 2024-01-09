@@ -1,0 +1,40 @@
+body{
+   background: linear-gradient(to right, #434343,#000000);
+   margin: 0%;
+   padding: 0%;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   display: flex;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   padding: 30px;
+   width: 300px;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+}
+  
+  button {
+   font-size: 1.5rem;
+   padding: 10px 20px;
+   cursor: pointer;
+   background-color: #0056b3;;
+   color: white;
+   border: none;
+   border-radius: 5px;
+  }
+  
+  button:hover {
+   background-color: #0056b3;
+  }
+  
+  h1, h2 {
+   font-size: 2rem;
+   margin: 0;
+   color: white;
+  }
